@@ -12,6 +12,24 @@ global vscode__AHK := ".ahk"
 
 
 
+~F13 & Q::{
+    SendText("global")
+}
+
+~F13 & m::{
+    SendText('MsgBox("")')
+    SendInput("{Left 2}")
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
